@@ -82,6 +82,9 @@ class Comment(db.Model):
     date = db.Column(db.String(250), nullable=False)
 
 
+db.create_all()
+
+
 def admin_only(f):
     """
     Decorator that allows only admin level status users to perform certain
