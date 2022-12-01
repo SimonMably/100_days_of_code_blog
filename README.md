@@ -21,8 +21,3 @@ Features:
 
     All registered users can post comments on blog posts. Comments can be deleted by the user who created them
     and the admin user (me).
-  
-This blog is hosted on Heroku. It uses a Postgres database on Heroku or SQLite locally. 
-
-
-See my blog [here](https://simons-blog.herokuapp.com/).
